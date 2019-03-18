@@ -2,19 +2,19 @@
 
 var game = {
     music: "98_Lost_Mine.mp3",
-    background_image: "intro-bg.jpg",
+    background_image: "https://ak9.picdn.net/shutterstock/videos/4914629/thumb/1.jpg",
     levels: {
 
         start: {
-            message: "You come across a dark cave",
+            message: "You woke up in the fields of a dark plain of fields.",
             choices: [
                 {
-                    text: "Enter the cave",
+                    text: "dark room",
                     nextLevel: "cave",
                 },
 
                 {
-                    text: "Keep on moving",
+                    text: "stay",
                     nextLevel: "field",
                 },
             ]
